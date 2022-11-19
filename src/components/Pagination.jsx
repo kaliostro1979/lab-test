@@ -20,7 +20,7 @@ const Pagination = ({totalCount, perPage, callBack, currentPage, switchNext, swi
                         return <li
                             key={index * Math.random()}
                             onClick={callBack}
-                            className={page + 1 === +currentPage ? 'Current' : ''}
+                            className={page + 1 === currentPage ? 'Current' : ''}
                         >{page + 1}</li>
                     })
                 }
