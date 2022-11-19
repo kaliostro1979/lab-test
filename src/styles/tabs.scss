@@ -1,0 +1,31 @@
+.Tabs {
+  padding: 0 20px;
+}
+
+.TabsNavBar {
+  padding: 20px 0;
+
+  ul {
+    display: flex;
+
+    li {
+      padding: 8px;
+      border: 1px solid #000000;
+      cursor: pointer;
+
+      &.Active {
+        background-color: #ededed;
+      }
+    }
+  }
+}
+
+.TabsItem {
+  display: none;
+  min-height: 600px;
+  border: 1px solid #000000;
+
+  &.Show {
+    display: block;
+  }
+}

@@ -1,0 +1,25 @@
+.Pagination {
+  margin-top: 30px;
+  ul {
+    li {
+      padding: 5px 8px;
+      border: 1px solid #000000;
+      cursor: pointer;
+
+      &.Current {
+        background-color: #ededed;
+      }
+
+      button {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

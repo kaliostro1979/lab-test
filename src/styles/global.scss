@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+
+  li {
+    margin-right: 20px;
+  }
+}
+
+.Container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.Navbar {
+  padding: 20px;
+}
